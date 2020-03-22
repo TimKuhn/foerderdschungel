@@ -13,7 +13,7 @@ production = False
 
 pdf_path = "./files"                                         # PDFS PFAD ANGEBEN !
 
-filled_pdfs_path = "./files_filled"                                 # FILLED PDFS PFAD ANGEBEN !
+filled_pdfs_path = "/tmp/files_filled"                                 # FILLED PDFS PFAD ANGEBEN !
 
 kfw_kredite_1 = {
     "unternehmen_name": 'antragsteller_unternehmen',
