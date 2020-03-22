@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Formfiller from '../views/formfiller.vue'
 import Decisiontree from '../views/decisiontree.vue'
+import Landing from '../views/landing.vue'
 
 
 Vue.use(VueRouter)
@@ -21,7 +22,8 @@ const routes = [
   },
   {
     path: '/',
-    redirect: '/decisiontree'
+    name: "landing",
+    component: Landing
   }
 
 ]
